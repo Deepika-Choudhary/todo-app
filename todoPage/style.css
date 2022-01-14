@@ -1,0 +1,39 @@
+body{
+    background-color: #DAF7A6;
+}
+.task{
+    background-color: ghostwhite;
+    border: 2px solid ghostwhite;
+    box-shadow: 5px 10px 10px gainsboro;
+    border-radius: 2rem;
+    width: 80vh;
+    height: 10vh;
+    margin-left: 25rem;
+    margin-top: 1rem;
+}
+
+input{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 60vh;
+    height: 5vh;
+    border: 2px solid ghostwhite;
+}
+
+input:active{
+    border: 2px solid ghostwhite;
+}
+
+.removeButton{
+    margin-left: 1rem;
+    width: 5vh;
+}
+
+.addButton{
+    margin-left: 40rem;
+    margin-top: 10rem;
+    padding-top: 2rem;
+    width: 10vh;
+    /* height: 40vh; */
+    color: rgb(12, 104, 12);
+}

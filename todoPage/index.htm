@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo Page</title>
+</head>
+<body>
+    <h1 style="text-align:center">All Tasks</h1>
+    
+    <!-- new task  -->
+    <div class="task">
+        <form action="" class="form-control">
+            <input type="text" placeholder="New task...">
+
+            <!-- remove button  -->
+            <button onclick="remove()" class="removeButton">
+                <i class="fa fa-minus-circle fa-2x" aria-hidden="true">-</i>
+            </button>
+            <div id="removed"></div>
+        </form>
+    </div>
+
+    <!-- add button  -->
+    <div id="added"></div>
+    <!-- <div class="addButton"> -->
+        <button onclick="add()" class="addButton">
+            <i class="fa fa-plus-circle fa-2x" aria-hidden="true">Add</i>
+        </button>
+    <!-- </div> -->
+    <script src="index.js"></script>
+</body>
+</html>
